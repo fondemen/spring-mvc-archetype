@@ -46,7 +46,7 @@
 
 	<groupId>fr.uha.ensisa.ff</groupId>
 	<artifactId>spring-mvc-archetype</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 	<distributionManagement>
