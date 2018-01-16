@@ -8,14 +8,14 @@
 		<version>7</version>
 	</parent>
 
-	<name>spring-mvc-hibernate-archetype</name>
-	<description>An extremely simple Spring MVC + Hibernate 4 archetype, configured with NO XML.</description>
+	<name>spring-mvc-archetype</name>
+	<description>An extremely simple Spring MVC, configured with NO XML.</description>
 
 
 
-	<groupId>co.ntier</groupId>
-	<artifactId>spring-mvc-hibernate-archetype</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<groupId>fr.uha.ensisa</groupId>
+	<artifactId>spring-mvc-archetype</artifactId>
+	<version>1.0.3-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 
