@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
@@ -8,12 +9,12 @@
 		<version>7</version>
 	</parent>
 
-	<name>spring-mvc-archetype</name>
+	<name>${project.groupId}:${project.artifactId}</name>
 	<description>An extremely simple Spring MVC, configured with NO XML.</description>
 
 
 
-	<groupId>fr.uha.ensisa</groupId>
+	<groupId>fr.uha.ensisa.ff</groupId>
 	<artifactId>spring-mvc-archetype</artifactId>
 	<version>1.0.3-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
@@ -47,9 +48,16 @@
 	</build>
 
 
-	<url>http://ntier.co</url>
+	<url>https://github.com/fondemen/spring-mvc-archetype</url>
 
 	<developers>
+		<developer>
+			<id>frederic.fondement@uha.fr</id>
+			<name>Frédéric Fondement</name>
+			<email>frederic.fondement@uha.fr</email>
+			<organization>ENSISA</organization>
+			<organizationUrl>http://www.ensisa.uha.fr</organizationUrl>
+		</developer>
 		<developer>
 			<name>David Welch</name>
 			<email>david@davidwelch.co</email>
@@ -58,11 +66,11 @@
 
 
 	<scm>
-		<connection>scm:git:git@github.com:dwelch2344/spring-mvc-archetype.git</connection>
-		<developerConnection>scm:git:git@github.com:dwelch2344/spring-mvc-hibernate-archetype.git</developerConnection>
-		<url>git@github.com:dwelch2344/spring-mvc-archetype.git</url>
+		<connection>scm:git:git@github.com:fondemen/spring-mvc-archetype.git</connection>
+		<developerConnection>scm:git:git@github.com:fondemen/spring-mvc-archetype.git</developerConnection>
+		<url>https://github.com/fondemen/spring-mvc-archetype</url>
 	</scm>
-	
+
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
