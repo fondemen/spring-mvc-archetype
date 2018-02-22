@@ -14,6 +14,11 @@ mvn archetype:generate \
   -DartifactId=test \
   -DarchetypeGroupId=fr.uha.ensisa.ff \
   -DarchetypeArtifactId=spring-mvc-archetype \
-  -DarchetypeVersion=1.0.3 \
+  -DarchetypeVersion=1.0.4 \
   -DinteractiveMode=false
 ```
+
+## checking generated project
+
+To check project, cd into the created project (`test` in this example) and run `mvn verify`.
+You can see the web interface by running `mvn tomcat7:run` and load http://localhost:8080/test/hello (replacing test with your artifactId).

@@ -18,7 +18,7 @@ public class HelloIT{
 	@Before
 	public void setup() {
 		port = System.getProperty("servlet.port", "8080");
-		name = System.getProperty("artifactId", "test");
+		name = System.getProperty("artifactId", "${artifactId}");
 	}
 
 	@Test
