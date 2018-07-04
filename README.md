@@ -1,3 +1,5 @@
+[![Maven Central](https://img.shields.io/maven-central/v/fr.uha.ensisa.ff/spring-mvc-archetype.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22fr.uha.ensisa.ff%22%20AND%20a%3A%22spring-mvc-archetype%22)
+
 # spring-mvc-archetype
 An extremely simple Spring MVC, configured with annotations.
 
