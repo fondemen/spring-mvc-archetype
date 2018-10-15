@@ -6,11 +6,11 @@
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
-		<version>7</version>
+		<version>9</version>
 	</parent>
 
 	<name>${project.groupId}:${project.artifactId}</name>
-	<description>An extremely simple Spring MVC, configured with NO XML.</description>
+	<description>An extremely simple Spring MVC</description>
 
 
 	<url>https://github.com/fondemen/spring-mvc-archetype</url>
@@ -46,7 +46,7 @@
 
 	<groupId>fr.uha.ensisa.ff</groupId>
 	<artifactId>spring-mvc-archetype</artifactId>
-	<version>1.0.5-SNAPSHOT</version>
+	<version>1.0.5</version>
 	<packaging>maven-archetype</packaging>
 
 	<distributionManagement>
@@ -65,42 +65,5 @@
 			</extension>
 		</extensions>
 	</build>
-
-	<profiles>
-		<profile>
-			<id>oss</id>
-
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-gpg-plugin</artifactId>
-						<executions>
-							<execution>
-								<id>sign-artifacts</id>
-								<phase>verify</phase>
-								<goals>
-									<goal>sign</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-source-plugin</artifactId>
-						<version>2.2.1</version>
-						<executions>
-							<execution>
-								<id>attach-sources</id>
-								<goals>
-									<goal>jar-no-fork</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
 
 </project>
