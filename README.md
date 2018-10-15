@@ -16,7 +16,7 @@ mvn archetype:generate \
   -DartifactId=test \
   -DarchetypeGroupId=fr.uha.ensisa.ff \
   -DarchetypeArtifactId=spring-mvc-archetype \
-  -DarchetypeVersion=1.0.4 \
+  -DarchetypeVersion=1.0.5 \
   -DinteractiveMode=false
 ```
 
