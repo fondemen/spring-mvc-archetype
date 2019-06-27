@@ -3,8 +3,8 @@
 # spring-mvc-archetype
 An extremely simple Spring MVC, configured with annotations.
 
-This archetype is an enhanced version (fork of) co.ntier:spring-mvc-archetype:1.0.2.
-Its goal, as the origin, is to provide a simple archetype to start a Spring MVC based project. Compared to co.ntier:spring-mvc-archetype:1.0.2, it uses a more recent version of Spring, explicitly adds a dependency to an application server ([jetty](https://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html)), and includes an example integration test.
+This archetype is a fork of co.ntier:spring-mvc-archetype:1.0.2.
+Its goal, as the origin, is to provide a simple archetype to start a Spring MVC based project. Compared to co.ntier:spring-mvc-archetype:1.0.2, it uses a more recent version of Spring, explicitly adds a dependency to an application server ([jetty](https://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html)), uses Theamleaf as template engine, and includes an example integration test.
 
 
 ## creating a project
@@ -16,7 +16,7 @@ mvn archetype:generate \
   -DartifactId=test \
   -DarchetypeGroupId=fr.uha.ensisa.ff \
   -DarchetypeArtifactId=spring-mvc-archetype \
-  -DarchetypeVersion=1.0.6 \
+  -DarchetypeVersion=1.0.7 \
   -DinteractiveMode=false
 ```
 

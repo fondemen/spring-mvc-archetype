@@ -28,17 +28,15 @@
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/main/webapp</directory>
 			<includes>
-				<include>**/*.jsp</include>
 				<include>**/*.xml</include>
+				<include>**/*.html</include>
 				<include>**/*.properties</include>
-				<include>**/*.tag</include>
 			</includes>
 		</fileSet>
 		<fileSet encoding="UTF-8">
 			<directory>src/main/webapp</directory>
 			<includes>
 				<include>**/*.css</include>
-				<include>**/*.tag</include>
 				<include>**/*.js</include>
 			</includes>
 		</fileSet>

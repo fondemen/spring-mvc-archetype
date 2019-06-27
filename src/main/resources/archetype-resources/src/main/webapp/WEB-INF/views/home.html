@@ -1,0 +1,13 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<!DOCTYPE html>
+<html>
+    <head th:replace="../fragments/template :: head">
+	</head>
+	<body>
+		<h1>Hello [[${name}]]</h1>
+		<p>This is an example page.</p>
+		<div th:replace="../fragments/template :: footer"></div>
+	</body>
+</html>
