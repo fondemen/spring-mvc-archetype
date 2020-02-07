@@ -3,7 +3,8 @@
 #set( $symbol_escape = '\' )
 <!DOCTYPE html>
 <html>
-    <head th:replace="../fragments/template :: head">
+    <head th:include="../fragments/template :: head(~{::title})">
+    	<title>Home page</title>
 	</head>
 	<body>
 		<h1>Hello [[${name}]]</h1>
