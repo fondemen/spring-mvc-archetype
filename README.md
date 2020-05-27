@@ -23,4 +23,4 @@ mvn archetype:generate \
 ## checking generated project
 
 To check project, cd into the created project (`test` in this example) and run `mvn verify`.
-You can see the web interface by running `mvn jetty:run` and load http://localhost:8080/hello (replacing test with your artifactId).
+You can see the web interface by running `mvn jetty:run` and load http://localhost:8080/hello.
